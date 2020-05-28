@@ -7,7 +7,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 
 /**
  *
- * @author Husitai
+ * @author Husitai-Test
  */
 public class Student
 {
