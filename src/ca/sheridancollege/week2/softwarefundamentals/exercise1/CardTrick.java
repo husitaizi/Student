@@ -42,9 +42,18 @@ public class CardTrick
          }
          System.out.println("Sorry, no luck.");
       }
-
-      // and search magicHand here
+       // and search magicHand here
       //Then report the result here
+// Specify a lucky card and search in the randomly created card array to check the luck. 
+      cUser.setSuit("Hearts");
+      cUser.setValue(8);
+      for (int i = 0; i < magicHand.length; i++) {
+         if (cUser == magicHand[i]) {
+            System.out.println("Good luck this time! ");
+         }
+         System.out.println("Sorry, no luck.");
+      }
+     
    }
 
 }
